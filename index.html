@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <input type="text" placeholder="0" id="result" />
+
+        <button onclick="clrscr()">AC</button>
+        <button onclick="del()">DEL</button>
+        <button id="btn" onclick="getNum('%')">%</button>
+        <button id="btn" onclick="getNum('/')">/</button>
+        <button id="btn" onclick="getNum('7')">7</button>
+        <button id="btn" onclick="getNum('8')">8</button>
+        <button id="btn" onclick="getNum('9')">9</button>
+        <button id="btn" onclick="getNum('x')">X</button>
+        <button id="btn" onclick="getNum('4')">4</button>
+        <button id="btn" onclick="getNum('5')">5</button>
+        <button id="btn" onclick="getNum('6')">6</button>
+        <button id="btn" onclick="getNum('+')">+</button>
+        <button id="btn" onclick="getNum('1')">1</button>
+        <button id="btn" onclick="getNum('2')">2</button>
+        <button id="btn" onclick="getNum('3')">3</button>
+        <button id="btn" onclick="getNum('-')">-</button>
+        <button id="btn" onclick="getNum('0')">0</button>
+        <button id="btn" onclick="getNum('.')">.</button>
+        <!-- <button onclick="getNum()">0</button> -->
+        <button id="equal" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

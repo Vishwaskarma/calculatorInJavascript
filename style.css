@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,400&family=Mulish:ital,wght@0,200;0,700;0,800;0,900;0,1000;1,200;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Proza+Libre&display=swap");
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffff;
+  position: absolute;
+  background-color:#0B6262;
+
+}
+.main{
+    position:absolute;
+    top:50%;
+    left:50%;
+
+
+
+
+    transform:translate(-50%,-50%);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:60%;
+
+    background-color: #047173;
+    padding:10px 0px;
+
+
+
+}
+input{
+    grid-column: span 4;
+
+    margin:3px 0px;
+    height:50px;
+    width:290px;;
+    margin-right:10px;
+    text-align: end;
+    padding-right:10px;
+    margin-left:8px;
+    border-radius:5px;
+  
+
+
+    
+
+
+
+
+
+}
+input::placeholder{
+    text-align: end;
+    padding:10px;
+
+
+
+
+}
+input[type="text"], textarea {
+
+  background-color :#353232 ; 
+  color:cyan;
+  font-family: 'Poppins', sans-serif; 
+
+}
+button{
+    height:48px;
+    width:48px;
+    border-radius: 50%;
+    font-size:1.1rem;
+    background-color:#353232;
+    color:cyan;
+    box-shadow: cyan 0px 3px 6px, cyan 0px 3px 6px;
+    font-family: 'Poppins', sans-serif; 
+    
+
+
+
+    margin-left:15px;
+
+}
